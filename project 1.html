@@ -1,13 +1,24 @@
 <html>
 
 <head>
-<title>Jennifer's 1st HTML Page</title>
+<title>Hi there</title>
+<meta charset="UTF-8">
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
+
+<style>
+.box {border-color:pink}
+</style>
 
 <body>
 
 <h1>Welcome to My Page!</h1>
-<p>This is a fan page for wikiHow. Make yourself at home!</p>
+<p style="
+    border-width: 5px;
+    border-color: black;
+    border-style: solid;
+    margin-top: 5px;
+">This is a fan page for wikiHow. Make yourself at home!</p>
 
 <h2>Important Dates</h2>
 <p><i>January 15, 2019</i> - wikiHow's Birthday</p>
@@ -17,7 +28,7 @@
 <img src="http://www.cuhk.edu.hk/english/images/
 cuhk_logo_2x.png"></img>
 
-<ul>
+<ul class="box">
    <li>apples
       <ul>
          <li>golden delicious</li>
@@ -31,7 +42,7 @@ cuhk_logo_2x.png"></img>
    <li>dragonfruit</li>
 </ul>
 
-<table border=1>
+<table border=1 class="box">
    <tr>
       <th>Month</th>
       <th>Rent</th>
